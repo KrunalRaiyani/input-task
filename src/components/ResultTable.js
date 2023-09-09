@@ -4,7 +4,7 @@ const ResultTable = (props) => {
     console.log(props)
     return (  
                 <tr>
-                    <th scope="row">{props.no}</th>
+                    <th scope="row">{props.no+1}</th>
                     <td  className='w-100 ps-4'> {props.value}</td>
                 </tr>
     )
